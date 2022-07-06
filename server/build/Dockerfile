@@ -1,18 +1,9 @@
-FROM golang:1.18.3-buster AS build-env
+# syntax=docker/dockerfile:1
 
-RUN mkdir -p /go/src/wow
-WORKDIR /go/src/wow
-
+FROM golang:1.18.3-buster
+WORKDIR /app
 COPY . .
-
-WORKDIR /go/src/wow/server
-
-RUN go mod init
 RUN go mod tidy
-
-RUN go build -o server ./cmd/main.go
-
-FROM debian:buster
-
+RUN go build -o server /app/server/cmd/main.go
 EXPOSE 6090
-CMD ["./server"]
+CMD [ "server" ]

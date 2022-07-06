@@ -1,23 +1,9 @@
-FROM golang:1.18.3-alpine3.16 AS build-env
+# syntax=docker/dockerfile:1
 
-RUN mkdir -p /go/src/wow
-WORKDIR /go/src/wow
-
+FROM golang:1.18.3-buster
+WORKDIR /app
 COPY . .
-
-# WORKDIR /go/src/wow/client
-RUN ls
-
-# WORKDIR /go/src
-RUN ls
-
-RUN go mod init
 RUN go mod tidy
-
-RUN ls
-
-RUN go build -o clientApp ./cmd/main.go
-
-# COPY --from=build-env /go/client  /app/client
-
-CMD ["./client"]
+RUN go build -o client /app/client/cmd/main.go
+EXPOSE 6090
+CMD [ "client" ]
