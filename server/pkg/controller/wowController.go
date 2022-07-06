@@ -4,7 +4,7 @@ import (
 	"net"
 	"strconv"
 
-	log "wow/server/pkg/base/logging"
+	log "wow/server/pkg/infrastructure/logging"
 	"wow/server/pkg/logic"
 	"wow/server/pkg/repository/connectionRepo"
 )

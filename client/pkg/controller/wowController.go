@@ -3,9 +3,9 @@ package controller
 import (
 	"net"
 
-	log "wow/client/pkg/base/logging"
-	"wow/client/pkg/repository/connectionRepo"
+	log "wow/client/pkg/infrastructure/logging"
 	"wow/client/pkg/logic"
+	"wow/client/pkg/repository/connectionRepo"
 )
 
 func HandleConnectionForWordOfWisdom(conn net.Conn) (response string, err error) {

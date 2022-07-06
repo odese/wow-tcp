@@ -2,8 +2,8 @@ package main
 
 import (
 	"wow/client/pkg/client"
-	"wow/client/pkg/base/config"
-	log "wow/client/pkg/base/logging"
+	"wow/client/pkg/infrastructure/config"
+	log "wow/client/pkg/infrastructure/logging"
 )
 
 func init() {

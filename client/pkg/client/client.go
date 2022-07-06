@@ -3,9 +3,9 @@ package client
 import (
 	"net"
 
-	"wow/client/pkg/base/config"
-	log "wow/client/pkg/base/logging"
 	"wow/client/pkg/controller"
+	"wow/client/pkg/infrastructure/config"
+	log "wow/client/pkg/infrastructure/logging"
 )
 
 func Run() {

@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"strings"
 
-	log "wow/server/pkg/base/logging"
+	log "wow/server/pkg/infrastructure/logging"
 	"wow/server/pkg/utils"
 )
 
