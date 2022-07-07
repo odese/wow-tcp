@@ -3,7 +3,7 @@ package main
 import (
 	"wow/client/pkg/client"
 	"wow/client/pkg/infrastructure/config"
-	log "wow/client/pkg/infrastructure/logging"
+	log "wow/client/pkg/infrastructure/logger"
 )
 
 func init() {

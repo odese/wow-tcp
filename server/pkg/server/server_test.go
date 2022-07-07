@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"wow/server/pkg/infrastructure/config"
-	// log "wow/server/pkg/infrastructure/logging"
+	// "wow/server/pkg/infrastructure/logger"
 )
 
 func TestRun(t *testing.T) {

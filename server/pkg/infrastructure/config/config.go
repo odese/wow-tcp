@@ -1,7 +1,7 @@
 package config
 
 import (
-	log "wow/server/pkg/infrastructure/logging"
+	log "wow/server/pkg/infrastructure/logger"
 
 	"github.com/spf13/viper"
 )

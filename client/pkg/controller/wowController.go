@@ -3,7 +3,7 @@ package controller
 import (
 	"net"
 
-	log "wow/client/pkg/infrastructure/logging"
+	log "wow/client/pkg/infrastructure/logger"
 	"wow/client/pkg/logic"
 	"wow/client/pkg/repository/connectionRepo"
 )

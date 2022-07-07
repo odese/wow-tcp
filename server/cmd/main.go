@@ -2,7 +2,7 @@ package main
 
 import (
 	"wow/server/pkg/infrastructure/config"
-	log "wow/server/pkg/infrastructure/logging"
+	log "wow/server/pkg/infrastructure/logger"
 	"wow/server/pkg/server"
 )
 

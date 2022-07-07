@@ -5,7 +5,7 @@ import (
 
 	"wow/client/pkg/controller"
 	"wow/client/pkg/infrastructure/config"
-	log "wow/client/pkg/infrastructure/logging"
+	log "wow/client/pkg/infrastructure/logger"
 )
 
 func Run() {
