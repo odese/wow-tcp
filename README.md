@@ -15,7 +15,7 @@ As I mentioned before, all those algoritms are one-to-one mathematical problems 
 ## Project Structure
 ![project structure](https://user-images.githubusercontent.com/46742766/177880198-cb7cbc7f-11e3-4ff1-bd80-dd88cf04f807.png)
 
-Project is tried to be structured and developed as Standard Go Project Layout with Clean Code Architecture.
+Project is tried to be structured and developed acording to Standard Go Project Layout and Clean Code Architecture.
 
 ## Example Output
 ![output](https://user-images.githubusercontent.com/46742766/177882440-b14476b7-2a9d-4d08-9d3e-20d40c77c937.png)
