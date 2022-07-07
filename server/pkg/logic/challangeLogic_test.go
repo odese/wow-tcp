@@ -6,5 +6,7 @@ import (
 
 func TestPrepareChallange(t *testing.T) {
 	challange, answer := PrepareChallange()
-	t.Logf("challange: %d, answer: %v", challange, answer)
+	if challange != answer[0]*answer[1] {
+		t.Errorf("challge is not solvable")
+	}
 }
