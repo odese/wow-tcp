@@ -20,12 +20,12 @@ func Run() {
 	defer conn.Close()
 
 	// Client sends new request after previous request is responded.
-	// for {
+	for {
 		response, err := controller.HandleConnectionForWordOfWisdom(conn)
 		if err != nil {
 			log.Error().Err(err).Msg("Error on handling connection")
 		} else {
 			log.Trace().Msg("Got Word of Wisdom:" + response)
 		}
-	// }
+	}
 }
