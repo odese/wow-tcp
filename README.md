@@ -10,4 +10,9 @@ Another reason for me is that, well, I studied mathematics and cryptography in u
 As I mentioned before, all those algoritms are one-to-one mathematical problems for computers to solve, while one way is hard and other way is easy. Multiplication is easier than division.
 
 ## Protocol Description
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Proof_of_Work_challenge_response.svg/550px-Proof_of_Work_challenge_response.svg.png" width="512"/>
+![550px-Proof_of_Work_challenge_response svg](https://user-images.githubusercontent.com/46742766/177880500-9d087d2d-e41f-46e5-85d0-9bc2a4440d8d.png)
+
+## Project Structure
+![project structure](https://user-images.githubusercontent.com/46742766/177880198-cb7cbc7f-11e3-4ff1-bd80-dd88cf04f807.png)
+
+## Example Output
